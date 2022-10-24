@@ -10,26 +10,30 @@ main{
 }
 #container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows:  auto auto auto auto auto auto;
 }
 #menu{
-    grid-area: 1/1/2/4;
+    grid-area: 1/1/2/7;
     background-color: rgb(211, 159, 159);
-    height: 25px;
+    height: 40px;
 }
 #hamb{
-    height: 25px;
-    width: 25px;
+    padding-top: 5px;
+    height: 30px;
+    width: 30px;
 }
 #menu-aparece{
     position: absolute;
-    top: 25px;
+    top: 40px;
     text-align: center;
     overflow: hidden;
     width: 100%;
     height: 0px;
     background-color: rgba(110, 10, 10, 0.699);
+}
+#menu-aparece ul{
+    list-style: none;
 }
 #menu-aparece li{
     padding: 4px 0px;
@@ -46,8 +50,18 @@ main{
     text-decoration: underline;
 }
 #conteudoprincipal{
-    margin-top: 25px;
-    background-color: blue;
-    grid-area: 1/2/6/4;
+    grid-area: 2/2/5/6;
+    background-color: azure;
 }
 
+.titulo{
+    text-align: center;
+    font-size: 45px;
+}
+#titulo-menu{
+    display: flex;
+    justify-content: space-between;
+}
+#titulo-menu p{
+    padding-top: 10px;
+}
