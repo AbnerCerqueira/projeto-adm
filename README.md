@@ -1,12 +1,5 @@
-# projeto-adm
+# CORES
 
-## PROJETO DE ADM 
-## ADM PROJECT
-# مشروع ADM
-## PROYECTO ADM
-## ADM 프로젝트
-## ADM 項目
-## HANA ADM
-## ADM-PROSJEKT
-## ПРОЕКТ АДМ
-<h1>Isso é algo sério!!!!!<h1>
+## #80c2d2ff
+## #a60800ff
+## #d7bb45ff
