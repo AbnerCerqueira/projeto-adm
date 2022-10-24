@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(228, 228, 228);
+   background-image: linear-gradient(yellow,red,orangered)
 }
 main{
     height: 900px;
@@ -16,7 +16,7 @@ main{
 #menu{
     grid-area: 1/1/2/4;
     background-color: rgb(211, 159, 159);
-    height: 25px;
+    height: 45px;
 }
 #hamb{
     height: 25px;
@@ -24,19 +24,19 @@ main{
 }
 #menu-aparece{
     position: absolute;
-    top: 25px;
+    top: 35px;
     text-align: center;
     overflow: hidden;
     width: 100%;
     height: 0px;
-    background-color: rgba(110, 10, 10, 0.699);
+    background-color: brown
 }
 #menu-aparece li{
     padding: 4px 0px;
 }
 #menu-aparece li:hover{
     transition: 0.5s;
-    background-color: rgba(87, 8, 8, 0.699);
+    background-color: rgba(255, 8, 8, 0.699);
 }
 #menu-aparece a{
     text-decoration: none;
@@ -45,9 +45,18 @@ main{
 #menu-aparece a:hover{
     text-decoration: underline;
 }
-#conteudoprincipal{
-    margin-top: 25px;
-    background-color: blue;
-    grid-area: 1/2/6/4;
+
+footer{
+    background-color: rgb(211, 159, 159);
+    color: white;
+    text-align: center;
+    font-family:  sans-serif;
+    font-size: xx-large;
+    background-position: center center;
+    height: 60px;
+    margin:auto;
 }
 
+footer:hover{
+    color: rgb(75, 38, 24);
+}
