@@ -5,9 +5,9 @@ var teste = true
 function abrir() {
 
     if(teste == true){
-        menuzinho.style.height='100px'
+        menuzinho.style.height='184px'
         menuzinho.style.transition='0.5s'
-        hamb.src = "img/closeicon.png"
+        hamb.src = "img/closeicon.svg"
         teste = false
     }else{
         menuzinho.style.height='0px'
