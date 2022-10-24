@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(228, 228, 228);
+}
+main{
+    height: 900px;
+}
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:  auto auto auto auto auto auto;
+}
+#menu{
+    grid-area: 1/1/2/4;
+    background-color: rgb(0, 0, 0);
+    height: 25px;
+}
+#hamb{
+    background-color: red;
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+}
+#menu-aparece{
+    position: absolute;
+    top: 25px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+    background-color: rgba(110, 10, 10, 0.699);
+}
+#menu-aparece li{
+    padding: 4px 0px;
+}
+#menu-aparece a{
+    text-decoration: none;
+    color: white;
+}
+#menu-aparece a:hover{
+    text-decoration: underline;
+}
+#conteudoprincipal{
+    margin-top: 25px;
+    background-color: blue;
+    grid-area: 1/2/6/4;
+}
+
