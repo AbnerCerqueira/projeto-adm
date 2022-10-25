@@ -3,11 +3,13 @@
     padding: 0px;
 }
 body{
-   background-image: linear-gradient(yellow,red,orangered)
+   background-color: rgb(221, 132, 16);
 }
 main{
     height: 900px;
+    background-color: aliceblue;
 }
+
 #container{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
@@ -16,11 +18,7 @@ main{
 #menu{
     grid-area: 1/1/2/7;
     background-color: rgb(211, 159, 159);
-<<<<<<< HEAD
     height: 45px;
-=======
-    height: 40px;
->>>>>>> a2d01424074318ac8ca606304ae07ef5e277ed48
 }
 #hamb{
     padding-top: 5px;
@@ -29,16 +27,12 @@ main{
 }
 #menu-aparece{
     position: absolute;
-<<<<<<< HEAD
     top: 35px;
-=======
-    top: 40px;
->>>>>>> a2d01424074318ac8ca606304ae07ef5e277ed48
     text-align: center;
     overflow: hidden;
-    width: 100%;
+    width: 90px;
     height: 0px;
-    background-color: brown
+    background-color: rgb(159, 45, 45)
 }
 #menu-aparece ul{
     list-style: none;
@@ -57,7 +51,6 @@ main{
 #menu-aparece a:hover{
     text-decoration: underline;
 }
-<<<<<<< HEAD
 
 footer{
     background-color: rgb(211, 159, 159);
@@ -73,21 +66,3 @@ footer{
 footer:hover{
     color: rgb(75, 38, 24);
 }
-=======
-#conteudoprincipal{
-    grid-area: 2/2/5/6;
-    background-color: azure;
-}
-
-.titulo{
-    text-align: center;
-    font-size: 45px;
-}
-#titulo-menu{
-    display: flex;
-    justify-content: space-between;
-}
-#titulo-menu p{
-    padding-top: 10px;
-}
->>>>>>> a2d01424074318ac8ca606304ae07ef5e277ed48
