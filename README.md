@@ -36,3 +36,7 @@ Utilização de recursos adequados que podem  controlador alguma situação de i
 Após conhecermos os critérios e a segurança do trabalho, construímos a ideia de que qualquer  empresas precisa elaborar um sistema de  proteção, ao combate, de acordo com as necessidades e características do edifício.
 Essas principais normas é executadas são previstas na CLT (Consolidação das Leis Trabalhistas
 No Brasil, o Ministério do Trabalho é responsável pela fiscalização do cumprimento da legislação relacionadas ao trabalho, aplicação de sanções para empresas que não cumprem as ações de Segurança e Saúde no Trabalho, de acordo com pesquisa.
+
+
+# navbar
+https://www.youtube.com/watch?v=bHRXRYTppHM
