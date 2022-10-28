@@ -7,7 +7,7 @@
 
 body {
     background-color: rgb(228, 228, 228);
-    background-image: url(../img/fundo.jpg);
+    background-image: url(../img/fundo3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -93,7 +93,7 @@ img {
 
 #menu-aparece {
     position: absolute;
-    top: 70px;
+    top: 80px;
     text-align: center;
     overflow: hidden;
     width: 100%;
