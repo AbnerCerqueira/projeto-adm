@@ -1,12 +1,6 @@
-# CORES
-
-## #80c2d2ff
-## #a60800ff
-## #d7bb45ff
-## Fonte Arial
-
-# INDEX
-## Quando entrar no site aparecerá um ST grandão
+# LINK IMAGENS E CORES
+## [https://br.freepik.com/vetores-gratis/bombeiros-ilustrados-apagando-um-incendio_19256418.htm#query=carro%20bombeiro&position=35&from_view=keyword]
+## [https://encycolorpedia.pt/964b00]
 
 # TÓPICOS
 ## INCÊNDIOS

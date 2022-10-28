@@ -1,0 +1,136 @@
+/*CORPO*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    height: 900px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 50px repeat(4, 1fr) 50px;
+    grid-auto-rows: 100px;
+}
+
+#seguranca-e-trabalho {
+    grid-area: 2/2/4/5;
+    background-color: rgba(240, 255, 255, 0.735);
+    border-radius: 50px;
+}
+
+#seguranca-e-trabalho:hover {
+    background-color: azure;
+}
+
+#normas {
+    grid-area: 4/3/7/6;
+    background-color: rgba(240, 255, 255, 0.735);
+    border-radius: 50px;
+}
+
+#normas:hover {
+    background-color: azure;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+}
+
+.texto {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*----------------------------------------------*/
+
+/*IMAGENS*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bola {
+    width: 40px;
+    height: 40px;
+}
+
+.seta {
+    width: 100px;
+    height: 100px;
+}
+
+/*----------------------------------------------*/
+/*MENU*/
+#menu {
+    grid-area: 1/1/2/7;
+    background-color: #2f2e2e;
+    height: 80px;
+    color: white;
+}
+
+#hamb {
+    padding-top: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+#st {
+    padding-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#menu-aparece {
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+    background-color: #4b4b4bd1;
+}
+
+#menu-aparece ul {
+    list-style: none;
+}
+
+#menu-aparece li {
+    padding: 4px 0px;
+}
+
+#menu-aparece li:hover {
+    transition: 0.5s;
+    background-color: #4b4b4b;
+}
+
+#menu-aparece a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu-aparece a:hover {
+    text-decoration: underline;
+}
+
+#titulo-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#titulo-menu p {
+    padding-top: 10px;
+}
+
+
+/*----------------------------------------------*/
