@@ -1,6 +1,7 @@
 var hamb = document.getElementById('hamb')
 var menuzinho = document.getElementById('menu-aparece')
 var teste = true
+var test = document.getElementById("seta")
 
 function abrir() {
 
@@ -15,6 +16,9 @@ function abrir() {
         hamb.src = "img/menuhamb.svg"
         teste = true
     }
-    
-    
 }
+
+function animation(){
+        test.style.animation="pulo .5s"    
+}
+
