@@ -5,6 +5,9 @@
 ## saddlebrown	#8b4513
 ## darkgoldenrod	#b8860b
 ## orange	#ffa500
+## red	#ff0000
+## dodgerblue	#1e90ff
+
 
 # TÓPICOS
 ## INCÊNDIOS
