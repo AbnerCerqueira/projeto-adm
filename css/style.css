@@ -7,7 +7,7 @@
 
 body {
     background-color: rgb(228, 228, 228);
-    background-image: url(../img/fundo3.jpg);
+    background-image: url(../img/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -22,27 +22,10 @@ main {
     grid-auto-rows: 100px;
 }
 
-#seguranca-e-trabalho {
-    grid-area: 2/2/4/5;
-    background-color: rgba(240, 255, 255, 0.735);
-    border-radius: 50px;
+#conteudo {
+    grid-area: 2/2/15/6;
+    background-color:azure;
 }
-
-#seguranca-e-trabalho:hover {
-    background-color: azure;
-}
-
-#normas {
-    grid-area: 5/3/8/6;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(240, 255, 255, 0.735);
-    border-radius: 50px;
-}
-#normas:hover {
-    background-color: azure;
-}
-
 .titulo {
     text-align: center;
     font-size: 40px;
@@ -67,6 +50,7 @@ img {
 }
 
 #seta {
+    text-align: center;
     width: 100px;
     height: 100px;
 }
