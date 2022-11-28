@@ -23,7 +23,7 @@ main {
 }
 
 #conteudo {
-    grid-area: 2/2/15/6;
+    grid-area: 2/2/12/6;
     background-color:azure;
 }
 .titulo {
